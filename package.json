@@ -1,0 +1,29 @@
+{
+  "name": "telegram-auto-order-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot auto order akun premium (deposit, buy, buynow QRIS iPaymu, admin panel) dengan Node.js + MySQL",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --watch --ext js,json --exec node index.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7",
+    "node-fetch": "^2.7.0",
+    "qrcode": "^1.5.4",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.7.0",
+    "nodemon": "^3.0.3"
+  }
+}

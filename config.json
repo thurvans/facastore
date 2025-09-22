@@ -1,0 +1,9 @@
+{
+  "adminUserIds": [6509765731],
+  "minDeposit": 1000,
+  "currency": "IDR",
+  "webhookPath": "/ipaymu/unotify",
+  "qrisExpireMinutes": 1440,
+  "maxQtyPerOrder": 100,
+  "maxTextLen": 128
+}
